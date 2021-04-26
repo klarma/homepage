@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #222;
+    background-color: #eee;
+}
+
+/* .headerTitle {
+} */
+
+.image {
+    width: 100%;
+    max-width: 200px;
+}

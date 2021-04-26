@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/section.css">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/tableContainer.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+  <title>Katarzyna Napierała - Frontend Developer</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">Frontend Developer - Katarzyna Napierała</h1>
+    <img class="header__image" src="https://i.postimg.cc/8cNxXXnP/kasia.jpg" alt="Katarzyna Napierała">
+  </header>
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li class="navigation__item"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#doswiadczenie">Doświadczenie</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#poznajmy-sie">Poznajmy się</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="o-mnie" class="section">
+      <h2>Witaj!</h2>
+      <p class="section__paragraph">Jestem <i class="section__foreign">Frontend Develeperką</i>, która z przyjemnością
+        zadba o to,
+        żeby <strong>Twoja
+          strona internetowa była nowoczesna, atrakcyjna i funkcjonalna</strong>. Jeżeli Ty lub Twoja firma
+        chcecie <em>zaistnieć</em> w
+        internecie, pokazać się z jak
+        najlepszej strony, podkreślić swoje atuty, a co za tym idzie stać się rozpoznawalnym i bardziej
+        atrakcyjnym
+        dla
+        swoich klientów <b>dobrze trafiłeś</b>.</p>
+    </section>
+    <section id="doswiadczenie" class="section">
+      <h2>Doświadczenie</h2>
+      <p class="section__paragraph">Moje doświadczenie to przede wszystkim projekty, z których jestem wyjątkowo dumna:
+        <a class="section__link" href="#">www.blablabla.pl</a>, <a class="section__link" href="#">www.blabla.com</a>,
+        <a class="section__link" href="#">www.bla.com</a>. Od dwóch lat zajmuję się
+        tworzeniem projektów stron i
+        aplikacji internetowych, w które wkładam całe serce. Jestem osobą otwartą, dokładam wszelkich
+        starań, aby klienci czuli się komfortowo w moim towarzystwie, co przekłada się na efekty naszej
+        współpracy. Jeżeli posiadasz koncepcję na swoją stronę, chętnie ją zrealizuję, jeżeli nie -
+        <b>możesz liczyć na pełne wsparcie z mojej
+          strony</b>.
+      </p>
+    </section>
+    <section id="poznajmy-sie" class="section">
+      <h2>Poznajmy się</h2>
+      <p class="section__paragraph">Mam 34 lata. Programowanie stało się moją pasją, a później pracą. Uwielbiam zdrowy
+        styl
+        życia -
+        fitness i bieganie to mój motor napędowy. Interesuję się tym jak funkconuje nasz mózg - uwielbiam
+        wspierać się technikami pamięciowymi w pracy i w życiu. Jeżeli moja duchowość potrzebuje
+        pokrzepienia zaglądam do "Langusty na palmie" - dobrze czasem tam wrócić.
+      </p>
+      <div class="table__container">
+        <table class="table">
+          <caption class="table__caption">To co sprawia, że świat zwalnia</caption>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="col">Kategoria</th>
+            <th class="table__cell table__cell--header" scope="col">Muzyka</th>
+            <th class="table__cell table__cell--header" scope="col">Film</th>
+            <th class="table__cell table__cell--header" scope="col">Serial</th>
+
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">Dla duszy</th>
+            <td class="table__cell">"See you again" One Voice Children's Choir</td>
+            <td class="table__cell">The good lie</td>
+            <td class="table__cell">The Queen's Gambit</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">Dla umysłu</th>
+            <td class="table__cell">"Halo" LP(Elegant)</td>
+            <td class="table__cell">A Beautiful Mind</td>
+            <td class="table__cell">Dr House</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">Dla przyjemności</th>
+            <td class="table__cell">"Ibiza summer mix 2021" Deep Legacy</td>
+            <td class="table__cell">Intouchables</td>
+            <td class="table__cell">Formula 1: Drive to Servive</td>
+          </tr>
+
+        </table>
+      </div>
+    </section>
+    <section id="kontakt" class="section">
+      <h2>W razie pytań proszę o kontakt</h2>
+      <button class="section__contactButton js-section__contactButton">Kontakt</button>
+      <p class="section__contactData js-section__contactData">
+        E-mail: <a class="section__link section__link--biggerLetters"
+          href="mailto:k_napierala@op.pl">k_napierala@op.pl</a><br>
+        Tel.: <a class="section__link section__link--biggerLetters" href="tel:+48.111111111">111 111 111</a>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>YouCode 2021 - Edycja II</p>
+  </footer>
+</body>
+
+</html>
