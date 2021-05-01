@@ -1,4 +1,4 @@
-# Kasia Napierała - moja pierwsza strona
+# Kasia Napierała- my first website
 
 ![Kasia Napierała](https://i.postimg.cc/QNp8CjdW/kasia.jpg)
 
@@ -6,6 +6,13 @@
 
 https://klarma.github.io/homepage/
 
-## Opis
+## Description
 
-Strona internetowa o mnie ma utrwalić i uzupełnić zdobyte umiejętności z zakresu podstaw HTML, CSS, JS. Kurs youcode https://youcode.pl/frontend-developer/, na bazie którego powstał projekt to okazja, żeby usystematyzować wiedzę, **wcielać w życie aktualne rozwiązania, najbardziej pożądane praktyki Front-Endu oraz konwencje stosowane przez doświadczonych developerów na całym świecie**. Strona o mnie jest prosta, ale ma pokazać **stosowanie właściwych praktyk, co ułatwi wdrożenie mojej osoby na stanowisku Junior Front-End Developer**. Nad poprawnością moich prac czuwa twórca kursu Krzysztof Dąbrowski - doświadczony Senior Software Engineer https://www.linkedin.com/in/dabrowskisoftware. 
+The website about me is to consolidate and supplement my acquired skills in the field of HTML, CSS, JS. The [youcode course](https://youcode.pl/frontend-developer/) is the basis on which the project was created. It gives me an opportunity to systematize knowledge, implement current solutions, be proficient with the most desirable Front-End practices and conventions used by experienced developers around the world**. The page about me is not just simple but it also strongly aims to show the use of proper practices, which will facilitate the implementation of my skills as a Junior Front-End Developer.
+
+The creator of the course [Krzysztof Dąbrowski](https://www.linkedin.com/in/dabrowskisoftware), an experienced Senior Software Engineer  looks after the correctness of my work.
+
+## Technologies:
+
+- BEM
+- ES6+ features
