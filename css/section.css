@@ -49,3 +49,7 @@
 .section__contactData--show {
     opacity: 1;
 }
+
+.section__tableContainer {
+    overflow-x: auto;
+}
