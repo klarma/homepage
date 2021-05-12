@@ -32,7 +32,7 @@
 }
 
 .section__link {
-    color: #1e85a5;
+    color: hsl(240, 35%, 47%);
     text-decoration: none;
 }
 

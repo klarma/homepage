@@ -10,13 +10,13 @@
 }
 
 .table__cell--header {
-    background-color: #4242c7;
+    background-color: hsl(240, 35%, 47%);
     color: #fff;
     font-weight: normal;
 }
 
 .table__cell--header:hover {
-    background-color: #5c5cd1;
+    background-color: hsl(240, 35%, 57%);
 }
 
 .table__row:hover {
@@ -29,4 +29,3 @@
     margin-top: 20px;
     font-weight: bold;
 }
-
