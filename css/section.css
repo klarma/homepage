@@ -2,9 +2,11 @@
     padding: 10px 0;
 }
 
-.section--motto{
+.section--motto {
     background-image: url(../images/lights.jpg);
     background-attachment: fixed;
+    margin-top: 30px;
+    padding: 10px;
 }
 
 .section__header {
