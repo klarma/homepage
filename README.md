@@ -15,4 +15,5 @@ The creator of the course [Krzysztof Dąbrowski](https://www.linkedin.com/in/dab
 ## Technologies:
 
 - BEM
-- ES6+ features
+- ES6+ features: const, let, blocks
+- Flexbox
